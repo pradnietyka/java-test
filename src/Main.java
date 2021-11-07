@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -39,12 +40,12 @@ public class Main {
 ////                    System.out.println("System działa1");
 ////                }
 
-        Scanner skaner = new Scanner(System.in);
-        System.out.println("Wpisz swoje imie");
-        String userInputName = skaner.nextLine();
-        System.out.println("Wpisz swoje nazwisko");
-        String userInputSurname = skaner.nextLine();
-        System.out.println("Witaj " + userInputName + " " + userInputSurname +"!");
+//        Scanner skaner = new Scanner(System.in);
+//        System.out.println("Wpisz swoje imie");
+//        String userInputName = skaner.nextLine();
+//        System.out.println("Wpisz swoje nazwisko");
+//        String userInputSurname = skaner.nextLine();
+//        System.out.println("Witaj " + userInputName + " " + userInputSurname +"!");
 
 //
 //    int number = 3;
@@ -58,7 +59,20 @@ public class Main {
 //        System.out.println(number2);
 //        System.out.println(++number2);
 
+            ArrayList<String> arrayList = new ArrayList<>();
+        String[] nameTable = new String[4];
+        String[] nameTable1 = {"Kasia", "Tomasz", "Joanna", "Anna"};
+        for(int i = 0; i < nameTable1.length; i++);{
+            for (int i = 0; i < nameTable1.length; i++) {
+                nameTable[i]=nameTable1[i];
+                System.out.println(nameTable[i]);
+            };
+        };
+        }
+
 
     }
 
-}
+
+
+
