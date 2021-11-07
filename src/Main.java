@@ -39,10 +39,25 @@ public class Main {
 ////                    System.out.println("System działa1");
 ////                }
 
-
         Scanner skaner = new Scanner(System.in);
-        String userInput = skaner.nextLine();
-        System.out.println(userInput);
+        System.out.println("Wpisz swoje imie");
+        String userInputName = skaner.nextLine();
+        System.out.println("Wpisz swoje nazwisko");
+        String userInputSurname = skaner.nextLine();
+        System.out.println("Witaj " + userInputName + " " + userInputSurname +"!");
+
+//
+//    int number = 3;
+//    int number2;
+//        System.out.println(number++);
+//        System.out.println(++number);
+//        System.out.println(number);
+//        number2 = number++;
+//        System.out.println(number2);
+//        number2 = ++number;
+//        System.out.println(number2);
+//        System.out.println(++number2);
+
 
     }
 
